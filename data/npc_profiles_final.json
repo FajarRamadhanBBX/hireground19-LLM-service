@@ -1,0 +1,261 @@
+{
+  "booth_1": {
+    "name": "Clara",
+    "name_corp": "ICAN Education Consultant",
+    "desc_corp": "ICAN Education Consultant, yaitu lembaga konsultan pendidikan luar negeri.",
+    "position": [
+      {
+        "title": "English Teacher (Full-time)",
+        "requirements": "S1 Pendidikan/Bahasa Inggris, komunikasi lancar, fasih berbahasa Inggris. ",
+        "job_desc": "Mengajar bahasa Inggris dan bantu persiapan tes."
+      }
+    ],
+    "benefit": ["Training",  "Insentif"],
+    "culture": "Edukatif dan supportive."
+  },
+
+  "booth_2": {
+    "name": "Harlan",
+    "name_corp": "PT Satria Palma Energi",
+    "desc_corp": "PT Satria Palma Energi, yaitu perusahaan energi dan rekayasa.",
+    "position": [
+      {
+        "title": "Mechanical Draft Engineer",
+        "requirements": "terbiasa memakai AutoCAD/SolidWorks, pendidikan minimal D3/S1 Teknik Mesin, berdomisili Samarinda.",
+        "job_desc": "Membuat rancangan biaya, menggambar struktur komponen, survey standar."
+      }
+    ],
+    "benefit": ["Asuransi", "Bonus proyek"],
+    "culture": "Teknis dan terstruktur."
+  },
+
+  "booth_3": {
+    "name": "Jordan",
+    "name_corp": "United Tractors",
+    "desc_corp": "United Tractors, yaitu perusahaan alat berat terbesar di Indonesia.",
+    "position": [
+      {
+        "title": "UT Trainee Program",
+        "requirements": "Fresh graduate, siap ditempatkan.",
+        "job_desc": "Ikut rotasi divisi dan training."
+      }
+    ],
+    "benefit": ["Training intensif", "Karier jelas"],
+    "culture": "Korporat dan disiplin."
+  },
+
+  "booth_4": {
+    "name": "Reina",
+    "name_corp": "PT Kobelindo Compressors",
+    "desc_corp": "PT Kobelindo Compressors, yaitu penyedia solusi kompresor industri.",
+    "position": [
+      {
+        "title": "Sales Engineer",
+        "requirements": "Teknik, komunikatif.",
+        "job_desc": "Jual kompresor dan follow up klien."
+      },
+      {
+        "title": "Technician",
+        "requirements": "Dasar mekanik/elektrik.",
+        "job_desc": "Instalasi dan perbaikan kompresor."
+      }
+    ],
+    "benefit": ["Operasional", "Training teknis"],
+    "culture": "Service-oriented."
+  },
+
+  "booth_5": {
+    "name": "Sheryl",
+    "name_corp": "Sun Life",
+    "desc_corp": "Sun Life, yaitu perusahaan asuransi dan financial planning.",
+    "position": [
+      {
+        "title": "Bancassurance Advisor",
+        "requirements": "Komunikatif, Sales-oriented, minimal pendidikan D3.",
+        "job_desc": "Menawarkan produk asuransi lewat bank."
+      }
+    ],
+    "benefit": ["Komisi", "Training"],
+    "culture": "Sales dan kompetitif."
+  },
+
+  "booth_6": {
+    "name": "Darrel",
+    "name_corp": "PT Dove Chemos",
+    "desc_corp": "PT Dove Chemos, yaitu distributor bahan baku personal care.",
+    "position": [
+      {
+        "title": "Technical Sales Personal Care",
+        "requirements": "Minimal S1 Kimia/farmasi, Fresh Graduate, fasih Berbahasa Inggris.",
+        "job_desc": "Jual bahan baku dan support teknis."
+      }
+    ],
+    "benefit": ["Transport", "Insentif"],
+    "culture": "Teknis dan santai."
+  },
+
+  "booth_7": {
+    "name": "Lydia",
+    "name_corp": "Wings",
+    "desc_corp": "Wings, yaitu perusahaan FMCG besar di Indonesia.",
+    "position": [
+      {
+        "title": "Sales",
+        "requirements": "Minimal S1 segala jurusan, Fresh Graduate, komunikasi baik.",
+        "job_desc": "Visit toko dan tingkatkan penjualan."
+      }
+    ],
+    "benefit": ["Bonus", "Transport"],
+    "culture": "Cepat dan target-oriented."
+  },
+
+  "booth_8": {
+    "name": "Edwin",
+    "name_corp": "Indomaret Group",
+    "desc_corp": "Indomaret Group, yaitu jaringan retail dengan divisi IT internal.",
+    "position": [
+      {
+        "title": "UI/UX Designer",
+        "requirements": "Portfolio, Figma, Adobe XD, 3 tahun pengalaman.",
+        "job_desc": "Desain tampilan dan alur aplikasi."
+      }
+    ],
+    "benefit": ["Training", "Stabilitas kerja"],
+    "culture": "Korporat digital."
+  },
+
+  "booth_9": {
+    "name": "Reno",
+    "name_corp": "Odoo Indonesia",
+    "desc_corp": "Odoo Indonesia, yaitu penyedia solusi ERP Odoo.",
+    "position": [
+      {
+        "title": "Business Development",
+        "requirements": "Komunikatif, paham bisnis.",
+        "job_desc": "Cari klien dan presentasi solusi ERP."
+      },
+      {
+        "title": "Fullstack Developer",
+        "requirements": "Python, JS.",
+        "job_desc": "Develop dan custom modul Odoo."
+      }
+    ],
+    "benefit": ["Fleksibel", "Learning opportunity"],
+    "culture": "Techy dan santai."
+  },
+
+  "booth_10": {
+    "name": "Maria",
+    "name_corp": "St. Carolus Hospital",
+    "desc_corp": "St. Carolus Hospital, yaitu rumah sakit dengan layanan profesional.",
+    "position": [
+      {
+        "title": "Dokter Umum",
+        "requirements": "Lulusan S1 Kedokteran, komunikatif dengan pasien.",
+        "job_desc": "Periksa dan tangani pasien umum."
+      },
+      {
+        "title": "Perawat",
+        "requirements": "Minimal D3/S1 Keperawatan, empati tinggi.",
+        "job_desc": "Asuhan keperawatan dan asistensi medis."
+      }
+    ],
+    "benefit": ["Asuransi", "Tunjangan shift"],
+    "culture": "Humanis dan disiplin."
+  },
+
+  "booth_11": {
+    "name": "Alena",
+    "name_corp": "PT Sukses Corp Internasional",
+    "desc_corp": "PT Sukses Corp Internasional, yaitu perusahaan digital marketing.",
+    "position": [
+      {
+        "title": "Affiliate Intern",
+        "requirements": "Tertarik marketing, komunikatif, paham tools analytics.",
+        "job_desc": "Bantu koordinasi dengan partner dan ikut menyusun ide peningkatan kampanye."
+      },
+      {
+        "title": "Community Intern",
+        "requirements": "Aktif di sosial media, kreatif, dapat membuat konten.",
+        "job_desc": "Kelola komunitas online, bantu bikin konten engagement."
+      }
+    ],
+    "benefit": ["Fleksibel", "Mentoring"],
+    "culture": "Casual dan digital-first."
+  },
+
+  "booth_12": {
+    "name": "Aditya",
+    "name_corp": "PT Kompten Satu Negeri",
+    "desc_corp": "PT Kompten Satu Negeri, yaitu penyedia solusi teknik industri.",
+    "position": [
+      {
+        "title": "Sales Engineer",
+        "requirements": "Berasal dari jurusan teknik, komunikatif.",
+        "job_desc": "menghubungkan kebutuhan klien dengan tim teknis internal."
+      }
+    ],
+    "benefit": ["Transport", "Insentif"],
+    "culture": "Profesional dan santai."
+  },
+
+  "booth_13": {
+    "name": "Bram",
+    "name_corp": "PT Trakindo Utama",
+    "desc_corp": "PT Trakindo Utama, yaitu distributor resmi alat berat Caterpillar.",
+    "position": [
+      {
+        "title": "Sales Representative",
+        "requirements": "Minimal D3 segala jurusan, Komunikatif, pengalaman sales 2 tahun, SIM A.",
+        "job_desc": "Meningkatkan keterampilan komunikasi dan negosiasi, Membangun hubungan strategis dengan pelanggan."
+      }
+    ],
+    "benefit": ["Komisi", "Asuransi"],
+    "culture": "Korporat dan klien-focused."
+  },
+
+  "booth_14": {
+    "name": "Tammy",
+    "name_corp": "Getstok",
+    "desc_corp": "Getstok, yaitu platform manajemen stok untuk UMKM.",
+    "position": [
+      {
+        "title": "Sales Executive",
+        "requirements": "Minimal 3 tahun dibidang sales, komunikatif, memiliki kendaraan pribai, SIM aktif.",
+        "job_desc": "Mencari dan menghubungi calon klien, memiliki hubungan baik denan customer, bertanggung jawab atas produk."
+      }
+    ],
+    "benefit": ["Insentif", "Fleksibel"],
+    "culture": "Startup dan cepat."
+  },
+
+  "booth_15": {
+    "name": "Livia",
+    "name_corp": "Euromedica",
+    "desc_corp": "Euromedica, yaitu klinik estetika modern.",
+    "position": [
+      {
+        "title": "Aesthetic Doctor",
+        "requirements": "Usia 22-40 tahun, gelar Kedokteran, STR aktif, 2 tahun pengalaman.",
+        "job_desc": "Melakukan konsultasi estetika, merencanakan rangkaian treatment, menjalankan prosedur perawatan."
+      }
+    ],
+    "benefit": ["Insentif", "Training estetika"],
+    "culture": "Premium dan profesional."
+  },
+
+  "booth_16": {
+    "name": "Valerie",
+    "name_corp": "PT Prospera Perwira Utama",
+    "desc_corp": "PT Prospera Perwira Utama, yaitu perusahaan jasa pendukung eksekutif.",
+    "position": [
+      {
+        "title": "Personal Assistant",
+        "requirements": "Ahli Ms.Excel, 3 tahun pengalaman Marketing Director, minimal D3/S1 Marketing/Business/Communication.",
+        "job_desc": "Mengatur jadwal dan agenda eksekutif, menyiapkan dokumen, mengatur perjalanan dinas, menangani email atau telepon,."
+      }
+    ],
+    "benefit": ["Asuransi", "Pengembangan"],
+    "culture": "Formal dan rapi."
+  }
+}

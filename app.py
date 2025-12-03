@@ -13,7 +13,7 @@ npc_data = {}
 async def lifespan(app: FastAPI):
     # Load data NPC
     global npc_data
-    with open("data/npc_profiles.json", "r") as f:
+    with open("data/npc_profiles_final.json", "r") as f:
         npc_data = json.load(f)
     print("NPC berhasil dimuat!")
     yield
