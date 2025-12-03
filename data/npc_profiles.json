@@ -1,0 +1,262 @@
+{
+  "booth_1": {
+    "name": "Bella",
+    "name_corp": "TechCorp",
+    "desc_corp": "TechCorp, yaitu startup unicorn di bidang Fintech.",
+    "position": [
+      {
+        "title": "Backend Engineer",
+        "requirements": "Go, Python, Docker, pengalaman 2 tahun.",
+        "job_desc": "Membangun microservices yang scalable."
+      },
+      {
+        "title": "Frontend Engineer",
+        "requirements": "HTML5, CSS, React Native, pengalaman 2 tahun.",
+        "job_desc": "Membangun tampilan aplikasi."
+      }
+    ],
+    "benefit": [
+        "Asuransi kesehatan",
+        "Kerja Remote"
+    ],
+    "culture": "Santai, remote-first, inovatif."
+  },
+  "booth_2": {
+    "name": "Dina",
+    "name_corp": "HealthPlus",
+    "desc_corp": "HealthPlus, yaitu startup unicorn internasional di bidang Healthtech.",
+    "position": [
+      {
+        "title": "Data Scientist",
+        "requirements": "Python, R, SQL, Bahasa Inggris, pengalaman 3 tahun.",
+        "job_desc": "Menganalisis data kesehatan untuk meningkatkan layanan."
+      }
+    ],
+    "benefit": [
+        "Asuransi kesehatan premium",
+        "Fasilitas gym"
+    ],
+    "culture": "Kolaboratif, fokus pada kesejahteraan karyawan."
+  },
+  "booth_4": {
+    "name": "",
+    "name_corp": "",
+    "desc_corp": ", yaitu ",
+    "position": [
+      {
+        "title": "",
+        "requirements": "",
+        "job_desc": ""
+      }
+    ],
+    "benefit": [
+        "",
+        ""
+    ],
+    "culture": ""
+  },
+  "booth_5": {
+    "name": "",
+    "name_corp": "",
+    "desc_corp": ", yaitu ",
+    "position": [
+      {
+        "title": "",
+        "requirements": "",
+        "job_desc": ""
+      }
+    ],
+    "benefit": [
+        "",
+        ""
+    ],
+    "culture": ""
+  },
+  "booth_6": {
+    "name": "",
+    "name_corp": "",
+    "desc_corp": ", yaitu ",
+    "position": [
+      {
+        "title": "",
+        "requirements": "",
+        "job_desc": ""
+      }
+    ],
+    "benefit": [
+        "",
+        ""
+    ],
+    "culture": ""
+  },
+  "booth_7": {
+    "name": "",
+    "name_corp": "",
+    "desc_corp": ", yaitu ",
+    "position": [
+      {
+        "title": "",
+        "requirements": "",
+        "job_desc": ""
+      }
+    ],
+    "benefit": [
+        "",
+        ""
+    ],
+    "culture": ""
+  },
+  "booth_8": {
+    "name": "",
+    "name_corp": "",
+    "desc_corp": ", yaitu ",
+    "position": [
+      {
+        "title": "",
+        "requirements": "",
+        "job_desc": ""
+      }
+    ],
+    "benefit": [
+        "",
+        ""
+    ],
+    "culture": ""
+  },
+  "booth_9": {
+    "name": "",
+    "name_corp": "",
+    "desc_corp": ", yaitu ",
+    "position": [
+      {
+        "title": "",
+        "requirements": "",
+        "job_desc": ""
+      }
+    ],
+    "benefit": [
+        "",
+        ""
+    ],
+    "culture": ""
+  },
+  "booth_10": {
+    "name": "",
+    "name_corp": "",
+    "desc_corp": ", yaitu ",
+    "position": [
+      {
+        "title": "",
+        "requirements": "",
+        "job_desc": ""
+      }
+    ],
+    "benefit": [
+        "",
+        ""
+    ],
+    "culture": ""
+  },
+  "booth_11": {
+    "name": "",
+    "name_corp": "",
+    "desc_corp": ", yaitu ",
+    "position": [
+      {
+        "title": "",
+        "requirements": "",
+        "job_desc": ""
+      }
+    ],
+    "benefit": [
+        "",
+        ""
+    ],
+    "culture": ""
+  },
+  "booth_12": {
+    "name": "",
+    "name_corp": "",
+    "desc_corp": ", yaitu ",
+    "position": [
+      {
+        "title": "",
+        "requirements": "",
+        "job_desc": ""
+      }
+    ],
+    "benefit": [
+        "",
+        ""
+    ],
+    "culture": ""
+  },
+  "booth_13": {
+    "name": "",
+    "name_corp": "",
+    "desc_corp": ", yaitu ",
+    "position": [
+      {
+        "title": "",
+        "requirements": "",
+        "job_desc": ""
+      }
+    ],
+    "benefit": [
+        "",
+        ""
+    ],
+    "culture": ""
+  },
+  "booth_14": {
+    "name": "",
+    "name_corp": "",
+    "desc_corp": ", yaitu ",
+    "position": [
+      {
+        "title": "",
+        "requirements": "",
+        "job_desc": ""
+      }
+    ],
+    "benefit": [
+        "",
+        ""
+    ],
+    "culture": ""
+  },
+  "booth_15": {
+    "name": "",
+    "name_corp": "",
+    "desc_corp": ", yaitu ",
+    "position": [
+      {
+        "title": "",
+        "requirements": "",
+        "job_desc": ""
+      }
+    ],
+    "benefit": [
+        "",
+        ""
+    ],
+    "culture": ""
+  },
+  "booth_16": {
+    "name": "",
+    "name_corp": "",
+    "desc_corp": ", yaitu ",
+    "position": [
+      {
+        "title": "",
+        "requirements": "",
+        "job_desc": ""
+      }
+    ],
+    "benefit": [
+        "",
+        ""
+    ],
+    "culture": ""
+  }
+}
