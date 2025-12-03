@@ -36,3 +36,15 @@ def delete_session(session_id: str):
         print(f"Session {session_id} terhapus.")
         return True
     return False
+
+def cleanup_expired_sessions(timeout_seconds=1800):
+    now = time.time()
+    expired = []
+    for session_id, data in list(_sessions.items()):
+        last_access = data.get('last_access')
+        if last_access is not None and now - last_access > timeout_seconds:
+            expired.append(session_id)
+    for session_id in expired:
+        _sessions.pop(session_id)
+        print(f"Session {session_id} expired and deleted.")
+    return expired

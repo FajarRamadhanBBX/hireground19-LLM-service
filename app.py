@@ -32,6 +32,7 @@ async def create_session():
 
 @app.post("/api/delete-session/{session_id}")
 async def delete_session(session_id: str):
+    session_manager.cleanup_expired_sessions()
     success = session_manager.delete_session(session_id)
     if success:
         return {"status": "Sesi berhasil dihapus."}
