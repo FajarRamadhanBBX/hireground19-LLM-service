@@ -97,7 +97,7 @@ Sends the user’s question and receives the NPC response.
 4. **Setup Environment Variables**
     Create a `.env` file and fill it with:
     ```
-    GEMINI_API_KEY=Paste_Your_Key_Here
+    GOOGLE_API_KEY=Paste_Your_Key_Here
     ```
 
 5. **Run the Server**
