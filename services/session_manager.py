@@ -2,8 +2,16 @@ import uuid
 import time
 
 # Penyimpanan sesi dalam memori (private)
-_sessions = {"1": {'last_access': 0.0, 'history': []}}
-# Struktur: {session_id: 'str', {'last_access': 'float', 'history': 'list'}}
+_sessions = {}
+# Struktur_sessions = {
+#     session_id: {
+#         'last_access': 
+#         'history': {
+#             npc_id: [
+#                 {'role': 'user'/'model', 'parts': [text, ...]},
+#         }
+#     }
+# }
 
 def generate_session_id():
     session_id = str(uuid.uuid4())

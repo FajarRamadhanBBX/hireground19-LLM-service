@@ -42,39 +42,43 @@ async def delete_session(session_id: str):
 @app.post("/api/llm-query", response_model=ChatResponse)
 async def query_llm(request: ChatRequest):
     session_id = request.session_id
+    npc_id = request.npc_id
     get_session = session_manager.is_valid_session(session_id)
-    print("get_session: ", get_session)
-    if get_session is False:
+    # print("get_session: ", get_session)
+    if not get_session:
         raise HTTPException(status_code=400, detail="Membutuhkan session_id! Buatlah terlebih dahulu.")
 
     # Validasi NPC ID
-    if request.npc_id not in npc_data:
+    if npc_id not in npc_data:
         raise HTTPException(status_code=404, detail="NPC ID tidak ditemukan.")
-    
-    profile = npc_data[request.npc_id]
-    
-    # Ambil History Chat sebelumnya
-    history = memory_manager.get_history(request.session_id)
+
+    profile = npc_data[npc_id]
+
+    # Ambil History Chat sebelumnya (per NPC)
+    history = memory_manager.get_history(session_id, npc_id)
+    all_sessions = session_manager.get_all_sessions()
     
     # Menyiapkan prompt
     prompt = prompt_builder.build_prompt(profile, request.user_text)
-    
+
     try:
         # Panggil Gemini
+        print("History: ", history)
         answer = gemini_client.generate_reply(prompt, history, request.user_text)
-        
-        # Simpan percakapan baru ke history
-        memory_manager.add_history(request.session_id, "user", request.user_text)
-        memory_manager.add_history(request.session_id, "model", answer)
-        
+
+        # Simpan percakapan baru ke history (per NPC)
+        memory_manager.add_history(session_id, npc_id, "user", request.user_text)
+        memory_manager.add_history(session_id, npc_id, "model", answer)
+        # print("All Sessions:", all_sessions)
+
         return ChatResponse(
-            npc_id=request.npc_id,
+            npc_id=npc_id,
             answer_text=answer
         )
-        
+
     except Exception as e:
         print(f"Error Gemini: {e}")
         return ChatResponse(
-            npc_id=request.npc_id,
+            npc_id=npc_id,
             answer_text="Maaf, koneksi saya sedang gangguan. Bisa ulangi?"
         )
